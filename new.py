@@ -30,3 +30,12 @@ for i in range (1, 10, 1):
    
 else:
     print("execution completed")
+    
+    #checking double loop operations
+    
+colors = [ "Red", "Green", "Ash"]
+fruits = ["Apple", "Oranges", "Pear"]
+
+for x in colors:
+    for y in fruits:
+        print(x +  " Not " + y) #putting comma puts a white space
