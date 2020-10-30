@@ -53,5 +53,16 @@ elif variable == 5:
     print("equal to 5")
 else:
     print("less than 5")
+    
+    
+#short hand if else
+a = 5
+b = 6
+print("A") if a > b else print("B")
+
+if a > 0 and b > 0 :
+    print("both pos")
+elif a > 0 or b > 0 :
+    print("Atleast one positive")
 
 
