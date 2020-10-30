@@ -39,3 +39,19 @@ fruits = ["Apple", "Oranges", "Pear"]
 for x in colors:
     for y in fruits:
         print(x +  " Not " + y) #putting comma puts a white space
+        
+# use pass for empty for loop
+
+for i in range(1,19):
+    pass #to avoid getting error
+    
+variable = input()
+variable = int(variable)
+if variable > 5:
+    print("value greater than 5")
+elif variable == 5:
+    print("equal to 5")
+else:
+    print("less than 5")
+
+
